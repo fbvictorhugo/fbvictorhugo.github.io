@@ -21,9 +21,11 @@
   flex-shrink: 0;
 }
 
-.demo-main {
+main.demo-main {
   margin-top: -35vh;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .demo-header .mdl-layout__header-row {
@@ -34,6 +36,7 @@
   max-width: 1600px;
   width: calc(100% - 16px);
   margin: 0 auto;
+    flex: 1;
 }
 
 .demo-content {
@@ -52,6 +55,7 @@
 
 .demo-footer {
   padding-left: 40px;
+  flex: none;
 }
 
 .demo-footer .mdl-mini-footer--link-list a {
