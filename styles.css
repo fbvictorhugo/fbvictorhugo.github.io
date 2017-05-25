@@ -67,3 +67,7 @@ main.demo-main {
     -webkit-border-radius: 50%;
     -moz-border-radius:50%;
 }
+
+.mdl-grid.center-items {
+  justify-content: center;
+}
